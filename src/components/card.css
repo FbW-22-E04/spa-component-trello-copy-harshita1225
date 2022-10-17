@@ -1,0 +1,41 @@
+.container {
+  width: 45rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  padding: 1rem;
+}
+
+.topcardsection {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 2rem;
+  height: 1.5rem;
+  background-color: azure;
+  border: none;
+  box-shadow: 5px 5px 10px rgb(151, 180, 180);
+  font-size: large;
+  padding-bottom: 25px;
+}
+
+.cardcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.todo {
+  background-color: rgb(151, 180, 180);
+  border-radius: 0.2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.outercontainer {
+  background-color: rgb(226, 241, 236);
+  padding: 1rem;
+  height: fit-content;
+}
